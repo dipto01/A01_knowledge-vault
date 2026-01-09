@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* applied google fonts in body */
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* header */
+.header {
+    background-color: white;
+    border: 2px solid red;
+}
+
+/* nav bar */
+nav {
+    padding-left: 120px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding: 16px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    padding: 34px;
+}
+
+.nav-menu li a{
+    text-decoration: none;
+    color: black;
+    size: 16px;
+}
+
+.nav-button {
+    padding: 24px;
+}
+
+/* Buttons */
+.button {
+    border: none;
+    background-color: #469165;
+    color: white;
+    padding: 12.5px;
+    font-size: 16px;
+    border-radius: 5px;
+}

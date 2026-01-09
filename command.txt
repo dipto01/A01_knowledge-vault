@@ -1,0 +1,7 @@
+echo "# A01_knowledge-vault" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dipto01/A01_knowledge-vault.git
+git push -u origin main

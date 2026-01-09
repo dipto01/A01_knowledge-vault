@@ -14,8 +14,7 @@ body {
 /* header */
 .header {
     background-color: white;
-    border: 2px solid red;
-}
+}    
 
 /* nav bar */
 nav {
@@ -53,5 +52,66 @@ nav {
     color: white;
     padding: 12.5px;
     font-size: 16px;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    height: 674px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content {
+height: 674px;
+}
+
+
+.banner-content p{
+    text-align: center;
+    color: white;
+}
+
+.banner-content h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+.banner-content .btn-div {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+#access {
+    margin-top: 115.5px;
+    color: #30B868;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+#head1 {
+    margin-top: 16px;
+    color: white;
+}
+#head2 {
+    color: #30B868;
+}
+#para {
+    margin-top: 16px;
+}
+
+#trans {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: white;
+    padding: 10px;
     border-radius: 5px;
 }

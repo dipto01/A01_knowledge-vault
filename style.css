@@ -89,11 +89,11 @@ height: 674px;
 
 #access {
     margin-top: 115.5px;
-    color: #30B868;
+    color: #469165;
     background-color: white;
     margin-left: 250px;
     margin-right: 250px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 100px;
 }
 
@@ -104,8 +104,15 @@ height: 674px;
 #head2 {
     color: #30B868;
 }
-#para {
+#para1 {
     margin-top: 16px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+#para2 {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 #trans {
@@ -167,7 +174,7 @@ height: 674px;
     padding-left: 24px;
     padding-right: 24px;
     align-items: center;
-    box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     
 }
@@ -180,6 +187,10 @@ height: 674px;
 .section-div {
     display: flex;
     gap: 60px;
+}
+
+.brain-light img{
+    border-radius: 5px;
 }
 
 .brain-text {
@@ -218,6 +229,7 @@ height: 674px;
     background-color: #F7F6F2;
     height: 384px;
     text-align: center;
+    border-radius: 5px;
 }
 
 .ea-div h2{

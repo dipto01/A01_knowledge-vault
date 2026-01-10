@@ -208,3 +208,34 @@ height: 674px;
     gap: 6px;
     margin-bottom: 16px;
 }
+
+/* Cahllenge section starts! */
+.ea-section {
+    padding: 0px 120px 120px 120px;
+}
+
+.ea-div {
+    background-color: #F7F6F2;
+    height: 384px;
+    text-align: center;
+}
+
+.ea-div h2{
+    padding-top: 80px;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.ea-div p{
+    color: #627382;
+}
+
+#lastpara {
+    margin-bottom: 24px;
+}
+
+/* button! */
+.ea-div button{
+    margin-bottom: 16px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}

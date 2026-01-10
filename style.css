@@ -171,3 +171,40 @@ height: 674px;
     border-radius: 5px;
     
 }
+
+/* Second Brain Section */
+.brain-section {
+    padding: 70px 120px 120px 120px;
+}
+
+.section-div {
+    display: flex;
+    gap: 60px;
+}
+
+.brain-text {
+    padding: 102px 200px 102px 0px
+}
+
+.brain-text h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+#para-sol {
+    margin-bottom: 16px;
+    color: #469165;
+}
+
+.brain-text > p {
+    color: #627382;
+    margin-bottom: 40px;
+    padding-right: 110px;
+}
+
+/* last section where I used div seemingly making it more complex */
+.brain-text div{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}

@@ -115,3 +115,59 @@ height: 674px;
     padding: 10px;
     border-radius: 5px;
 }
+
+/* Notes Section starts */
+
+.note-section {
+    padding: 50px 120px;
+}
+
+
+.ns-heading h2{
+   text-align: center;
+   font-size: 48px;
+   margin-bottom: 16px;
+}
+.ns-heading p{
+   text-align: center;
+   margin-bottom: 44px;
+   color: #627382;
+}
+
+/* cards */
+.ns-cards {
+    display: flex;
+    gap: 24px;
+}
+
+.ns-cards img{
+    height: 60px;
+    background-color: #F95555;
+    margin-left:110px;
+    border-radius: 100px;
+    padding: 14px;
+    margin-bottom: 16px;
+}
+
+.ns-cards h5{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 24px;
+
+}
+.ns-cards p{
+    text-align: center;
+    color: #627382;
+    margin-bottom: 16px;
+}
+
+.ns-cards div{
+    padding-top: 69.5px;
+    /* border: 1px solid red; */
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+    box-shadow: 0 -8px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    
+}

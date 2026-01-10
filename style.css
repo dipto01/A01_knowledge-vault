@@ -239,3 +239,49 @@ height: 674px;
     margin-bottom: 16px;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
+/* footer section! */
+footer{
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+}
+
+.footer-top {
+    display: flex;
+    gap: 1100px;
+    margin-bottom: 80px;
+}
+
+.footer-top p{
+    color: white;
+    margin-bottom: 16px;
+}
+
+.foot-icon img{
+    margin-right: 16px;
+    background-color: white;
+    padding: 2px;
+    border-radius: 100px;
+}
+
+/* hr:/ */
+#line {
+    border: none;
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer-bottom {
+    margin-top: 30px;
+}
+
+.footer-bottom p{
+    text-align: center;
+    color: #FAFAFA;
+}
+
+
+
+
+
+
+/* CSS Done! */
